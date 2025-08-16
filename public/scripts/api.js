@@ -1,3 +1,5 @@
+console.log("api.js loaded!");
+
 // api.js (using Currents API)
 const API_BASE = "https://api.currentsapi.services/v1";
 const API_KEY = "S8cxlxY99M9kVZVhQilw5z7bdnaLwe4ijjcJzaBwEGlPTKtL"; // <-- put your key here
@@ -34,4 +36,4 @@ async function searchNews(query) {
     const data = await response.json();
     return data.news;
 }
-console.log("api.js loaded!");
+
