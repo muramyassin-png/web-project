@@ -34,3 +34,4 @@ async function searchNews(query) {
     const data = await response.json();
     return data.news;
 }
+console.log("api.js loaded!");
