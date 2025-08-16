@@ -3,8 +3,8 @@
 console.log("✅ api.js loaded");
 
 // Currents API setup
-const API_BASE = "https://api.currentsapi.services/v1";
-const API_KEY = "YOUR_API_KEY_HERE"; // <-- replace with your real key
+const API_BASE = "weatherapi.com";
+const API_KEY = "6818ab626f7c420c802182857251608"; // <-- replace with your real key
 
 // Fetch latest news
 async function getTopHeadlines() {
